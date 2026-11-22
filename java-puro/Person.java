@@ -16,5 +16,14 @@ import java.util.List;
         public String getName () {
             return this.name;
         }
-
+        // MÉTODO
+        public boolean adopted (Dog dog) {
+            if (dog.isAdopted()) {
+                System.out.println(dog.getName() + " adoptado");
+                return false;
+            }
+            dog.setAdopted(true);
+            this.dogs.add(dog);
+                return true;
+        }
 }
