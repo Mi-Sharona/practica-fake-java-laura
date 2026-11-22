@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/java-puro/java-puro.iml" filepath="$PROJECT_DIR$/java-puro/java-puro.iml" />
       <module fileurl="file://$PROJECT_DIR$/practica-examen-java-laura.iml" filepath="$PROJECT_DIR$/practica-examen-java-laura.iml" />
     </modules>
   </component>
